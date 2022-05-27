@@ -6,6 +6,7 @@
 5. The below screenshot shows the places breakpoint are to be set to get the flag,
 
 ![First Breakpoint](https://github.com/Sm00thCriminal96/RingZer0_WriteUps/blob/main/Reverse/images/eax_screenshot.jpg)
+
 6. Set the breakpoint at the highlighted address
 
 ![Second Breakpoint](https://github.com/Sm00thCriminal96/RingZer0_WriteUps/blob/main/Reverse/images/leave_screenshot.jpg)
