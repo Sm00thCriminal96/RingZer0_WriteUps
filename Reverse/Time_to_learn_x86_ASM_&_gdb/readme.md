@@ -5,11 +5,11 @@
 4. But the flag is in one of the local variables of the main function. This will take a couple of breakpoints to locate the address and its content.
 5. The below screenshot shows the places breakpoint are to be set to get the flag,
 
-![First Breakpoint](https://github.com/Sm00thCriminal96/RingZer0_WriteUps/blob/main/Reverse/images/eax_screenshot.jpg)
+![First Breakpoint](https://github.com/Sm00thCriminal96/RingZer0_WriteUps/blob/main/Reverse/Time_to_learn_x86_ASM_&_gdb/images/eax_screenshot.jpg)
 
 6. Set the breakpoint at the highlighted address
 
-![Second Breakpoint](https://github.com/Sm00thCriminal96/RingZer0_WriteUps/blob/main/Reverse/images/leave_screenshot.jpg)
+![Second Breakpoint](https://github.com/Sm00thCriminal96/RingZer0_WriteUps/blob/main/Reverse/Time_to_learn_x86_ASM_&_gdb/images/leave_screenshot.jpg)
 
 7. After these breakpoints are set, run the executable inside the gdb with 'run' or 'r' command.
 8. When the first breakpoint is reached, print the value of eax in hexadecimal format. This is the address where the flag string is being loaded throughout the main function.
