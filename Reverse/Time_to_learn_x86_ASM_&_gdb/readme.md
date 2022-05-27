@@ -13,6 +13,6 @@
 
 7. After these breakpoints are set, run the executable inside the gdb with 'run' or 'r' command.
 8. When the first breakpoint is reached, print the value of eax in hexadecimal format. This is the address where the flag string is being loaded throughout the main function.
-9. Continut the execution of the executable with the 'continue' or 'c' command.
-10. Now, when the second breakpoint is reached, we are at the end of main function. Now use 'examine' or 'x' command as 's' format to print in string from the address found above (in the first breakpoint).
+9. Continue the execution of the executable with the 'continue' or 'c' command.
+10. Now, when the second breakpoint is reached, we are at the end of main function. Now use 'examine' or 'x' command as 's' format to print in string form, from the address we found above (in the first breakpoint).
 11. This will print the flag value.
