@@ -5,7 +5,7 @@ def binary_to_string(binary):
 
 
 
-response = requests.get('http://challenges.ringzer0team.com:10014/', cookies = {'PHPSESSID' : '64qhimn4kueejhef6fev45f7us'})
+response = requests.get('http://challenges.ringzer0team.com:10014/', cookies = {'PHPSESSID' : 'xxxxxxxxxxxxxxxxxx'})
 
 #Getting the message and convert the binary data to text.
 string = re.search('BEGIN MESSAGE(.*)END MESSAGE', str(response.content))
@@ -22,7 +22,7 @@ url = re.search('answer back using (.*)\[your_response\]', str(response.content)
 hasher = hashlib.sha512(string.encode())
 #print('The Hash is: ', hasher.hexdigest())
 request_str = url.group(1) + hasher.hexdigest()
-response = requests.get(request_str, cookies = {'PHPSESSID' : '64qhimn4kueejhef6fev45f7us'})
+response = requests.get(request_str, cookies = {'PHPSESSID' : 'xxxxxxxxxxxxxxxxxxxx'})
 
 #Extract the Flag from the response
 Flag = re.search('alert alert-info">(.*)</div>   ', str(response.content))
